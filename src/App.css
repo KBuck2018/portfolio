@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
 
+body,
+html {
+  height: 100%;
+}
 
+#card1 {
+  background-image: url(./Night\ Sky\ 3.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #box1 {} */
+/* Style page content */
+#main {
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
+  padding-left: 150px;
+  padding-right: 150px;
+}
 
 
 #name {
   font-family: 'Cormorant Garamond', serif;
+  color: white
 }
