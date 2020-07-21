@@ -1,7 +1,7 @@
 import React from "react";
 import navBarPhoto from "../../navbarPhoto.jpeg";
 import "./Navigation.css";
-import {} from "mdbreact";
+import { MDBBtn } from "mdbreact";
 
 function Navigation() {
   return (
@@ -14,18 +14,10 @@ function Navigation() {
       />
       <p>Kevin Buckley</p>
 
-      <p>
-        <a href="#">About</a>
-      </p>
-      <p>
-        <a href="#">About</a>
-      </p>
-      <p>
-        <a href="#">About</a>
-      </p>
-      <p>
-        <a href="#">About</a>
-      </p>
+      <MDBBtn href="#">About</MDBBtn>
+      <MDBBtn href="#">About</MDBBtn>
+      <MDBBtn href="#">About</MDBBtn>
+      <MDBBtn href="#">About</MDBBtn>
     </div>
   );
 }
